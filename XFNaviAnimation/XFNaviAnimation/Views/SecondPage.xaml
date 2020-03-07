@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XFNaviAnimation.Views.SecondPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="SecondPage"
+    mc:Ignorable="d">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightGreen">
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="Second Page!"
+                VerticalOptions="CenterAndExpand" />
+            <Button Text="Modal Third Page" Clicked="Button_Clicked"/>
+            <Button Text="Navigate to ThirdPage" Clicked="Button_Clicked_1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

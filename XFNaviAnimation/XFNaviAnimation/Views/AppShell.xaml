@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="XFNaviAnimation.Views.AppShell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="clr-namespace:XFNaviAnimation.Views"
+    mc:Ignorable="d">
+
+
+    <!--<ShellContent Title="ShellContent_MainPage">
+        <views:MainPage />
+    </ShellContent>
+    <ShellContent Title="ShellContent_SecondPage">
+        <views:SecondPage />
+    </ShellContent>-->
+
+    <!--<FlyoutItem Title="FlyoutItem_MainPage">
+        <ShellContent>
+            <views:MainPage />
+        </ShellContent>
+    </FlyoutItem>
+    <FlyoutItem Title="FlyoutItem_SecondPage">
+        <ShellContent>
+            <views:SecondPage />
+        </ShellContent>
+    </FlyoutItem>
+    <FlyoutItem Title="FlyoutItem_ThirdPage">
+        <ShellContent>
+            <views:ThirdPage />
+        </ShellContent>
+    </FlyoutItem>-->
+
+    <!--<FlyoutItem Title="FlyoutItem_MainPage" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="BottomTab_MainPage">
+            <views:MainPage />
+        </ShellContent>
+        <ShellContent Title="BottomTab_SecondPage">
+            <views:SecondPage />
+        </ShellContent>
+        <ShellContent Title="BottomTab_ThirdPage">
+            <views:ThirdPage />
+        </ShellContent>
+    </FlyoutItem>-->
+
+    <!--<FlyoutItem Title="FlyoutItem_MainPage">
+        <Tab Title="BottomTab_MainPage">
+            <ShellContent>
+                <views:MainPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="BottomTab_SecondPage">
+            <ShellContent>
+                <views:SecondPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="BottomTab_ThirdPage">
+            <ShellContent>
+                <views:ThirdPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>-->
+
+    <!--<FlyoutItem Title="FlyoutItem_SecondPage">
+        <Tab Title="BottomTab_MainPage">
+            <ShellContent>
+                <views:MainPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>-->
+
+    <!--<FlyoutItem Title="FlyoutItem_MainPage">
+        <Tab Title="BottomTab_MainPage">
+            <ShellContent Title="TopTab_MainPage">
+                <views:MainPage />
+            </ShellContent>
+            <ShellContent Title="TopTab_SecondPage">
+                <views:SecondPage />
+            </ShellContent>
+            <ShellContent Title="TopTab_ThirdPage">
+                <views:ThirdPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>-->
+
+    <!--<FlyoutItem Title="FlyoutItem_MainPage">
+        <Tab Title="BottomTab_MainPage">
+            <ShellContent Title="TopTab_MainPage">
+                <views:MainPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="BottomTab_SecondPage">
+            <ShellContent Title="TopTab_MainPage">
+                <views:MainPage />
+            </ShellContent>
+            <ShellContent Title="TopTab_SecondPge">
+                <views:SecondPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="BottomTab_ThirdPage">
+            <ShellContent Title="TopTab_MainPage">
+                <views:MainPage />
+            </ShellContent>
+            <ShellContent Title="TopTab_SecondPage">
+                <views:SecondPage />
+            </ShellContent>
+            <ShellContent Title="TopTab_ThirdPage">
+                <views:ThirdPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>-->
+
+    <!--<Tab Title="BottomTab_MainPage">
+        <ShellContent Title="TopTab_MainPage">
+            <views:MainPage />
+        </ShellContent>
+    </Tab>
+    <Tab Title="BottomTab_SecondPage">
+        <ShellContent Title="TopTab_SecondPge">
+            <views:SecondPage />
+        </ShellContent>
+    </Tab>
+    <Tab Title="BottomTab_ThirdPage">
+        <ShellContent Title="TopTab_ThirdPage">
+            <views:ThirdPage />
+        </ShellContent>
+    </Tab>-->
+
+
+    <Tab Title="BottomTab_MainPage">
+        <ShellContent Title="TopTab_MainPage">
+            <views:MainPage />
+        </ShellContent>
+    </Tab>
+    <Tab Title="BottomTab_SecondPage">
+        <ShellContent Title="TopTab_MainPage">
+            <views:MainPage />
+        </ShellContent>
+        <ShellContent Title="TopTab_SecondPge">
+            <views:SecondPage />
+        </ShellContent>
+    </Tab>
+    <Tab Title="BottomTab_ThirdPage">
+        <ShellContent Title="TopTab_MainPage">
+            <views:MainPage />
+        </ShellContent>
+        <ShellContent Title="TopTab_SecondPage">
+            <views:SecondPage />
+        </ShellContent>
+        <ShellContent Title="TopTab_ThirdPage">
+            <views:ThirdPage />
+        </ShellContent>
+    </Tab>
+
+    <!--<FlyoutItem Title="FlyoutItem_MainPage" FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent>
+            <views:MainPage />
+        </ShellContent>
+    </FlyoutItem>
+    <FlyoutItem Title="FlyoutItem_SecondPage" FlyoutDisplayOptions="AsSingleItem">
+        <Tab Title="BottomTab_MainPage">
+            <ShellContent>
+                <views:MainPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="BottomTab_SecondPage">
+            <ShellContent>
+                <views:SecondPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="BottomTab_ThirdPage">
+            <ShellContent>
+                <views:ThirdPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="FlyoutItem_ThirdPage" FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="BottomTab_MainPage">
+            <ShellContent Title="TopTab_MainPage">
+                <views:MainPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="BottomTab_SecondPage">
+            <ShellContent Title="TopTab_MainPage">
+                <views:MainPage />
+            </ShellContent>
+            <ShellContent Title="TopTab_SecondPge">
+                <views:SecondPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="BottomTab_ThirdPage">
+            <ShellContent Title="TopTab_MainPage">
+                <views:MainPage />
+            </ShellContent>
+            <ShellContent Title="TopTab_SecondPage">
+                <views:SecondPage />
+            </ShellContent>
+            <ShellContent Title="TopTab_ThirdPage">
+                <views:ThirdPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>-->
+</Shell>
